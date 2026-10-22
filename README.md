@@ -147,3 +147,10 @@ None of this is documented or supported by Microsoft. It can change with any upd
 table layouts have been stable since 2016, but that is an observation, not a promise. Do not ship
 anything that depends on it without checking the build you run on. The list walk in the sample
 recognizes a specific instruction sequence and only exists for x64.
+
+More context, and how PKU2U uses interface 1003:
+https://www.mysmartlogon.com/service/lsagetinterface-lsass-interface-registry/
+
+## License
+
+MIT, see [LICENSE](LICENSE).
