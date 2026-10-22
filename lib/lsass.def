@@ -1,0 +1,7 @@
+; Import library for the exports of lsass.exe: lib /def:lsass.def /machine:x64 /out:lsass.lib
+LIBRARY lsass.exe
+EXPORTS
+    LsaGetInterface
+    LsaImpersonateKsecCaller
+    LsaRegisterExtension
+    LsaRegisterInterface
